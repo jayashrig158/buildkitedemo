@@ -1,0 +1,5 @@
+steps:
+  - label: ":Demo Script"
+    command: "echo pipeline run sucessfully"
+    agents:
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
